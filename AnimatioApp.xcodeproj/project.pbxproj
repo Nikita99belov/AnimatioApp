@@ -3,27 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		521042C825E6F7C00099E728 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521042C725E6F7C00099E728 /* AppDelegate.swift */; };
 		521042CA25E6F7C00099E728 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521042C925E6F7C00099E728 /* SceneDelegate.swift */; };
-		521042CC25E6F7C00099E728 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521042CB25E6F7C00099E728 /* ViewController.swift */; };
+		521042CC25E6F7C00099E728 /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521042CB25E6F7C00099E728 /* AnimationViewController.swift */; };
 		521042CF25E6F7C00099E728 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 521042CD25E6F7C00099E728 /* Main.storyboard */; };
 		521042D125E6F7C30099E728 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 521042D025E6F7C30099E728 /* Assets.xcassets */; };
 		521042D425E6F7C30099E728 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 521042D225E6F7C30099E728 /* LaunchScreen.storyboard */; };
+		52157EA625E80BE50009B847 /* AnimationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52157EA525E80BE50009B847 /* AnimationInfo.swift */; };
+		B7066B1B21A095FCD93402AC /* Pods_AnimatioApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59DF57139A57DC2D7FA5BC26 /* Pods_AnimatioApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		16E8214FCEF94424F492786C /* Pods-AnimatioApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimatioApp.debug.xcconfig"; path = "Target Support Files/Pods-AnimatioApp/Pods-AnimatioApp.debug.xcconfig"; sourceTree = "<group>"; };
 		521042C425E6F7C00099E728 /* AnimatioApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimatioApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		521042C725E6F7C00099E728 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		521042C925E6F7C00099E728 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		521042CB25E6F7C00099E728 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		521042CB25E6F7C00099E728 /* AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
 		521042CE25E6F7C00099E728 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		521042D025E6F7C30099E728 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		521042D325E6F7C30099E728 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		521042D525E6F7C30099E728 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52157EA525E80BE50009B847 /* AnimationInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AnimationInfo.swift; path = "/Users/test/Documents/SwiftBook/Мои ДЗ/AnimatioApp/AnimatioApp/AnimationInfo.swift"; sourceTree = "<absolute>"; };
+		59DF57139A57DC2D7FA5BC26 /* Pods_AnimatioApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimatioApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0FF4F47230754BFD4D320A1 /* Pods-AnimatioApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimatioApp.release.xcconfig"; path = "Target Support Files/Pods-AnimatioApp/Pods-AnimatioApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7066B1B21A095FCD93402AC /* Pods_AnimatioApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,8 @@
 			children = (
 				521042C625E6F7C00099E728 /* AnimatioApp */,
 				521042C525E6F7C00099E728 /* Products */,
+				EC9E6992C6B515984F69E694 /* Pods */,
+				9FB0C19BE0708360566DC4DC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +67,31 @@
 			children = (
 				521042C725E6F7C00099E728 /* AppDelegate.swift */,
 				521042C925E6F7C00099E728 /* SceneDelegate.swift */,
-				521042CB25E6F7C00099E728 /* ViewController.swift */,
+				521042CB25E6F7C00099E728 /* AnimationViewController.swift */,
+				52157EA525E80BE50009B847 /* AnimationInfo.swift */,
 				521042CD25E6F7C00099E728 /* Main.storyboard */,
 				521042D025E6F7C30099E728 /* Assets.xcassets */,
 				521042D225E6F7C30099E728 /* LaunchScreen.storyboard */,
 				521042D525E6F7C30099E728 /* Info.plist */,
 			);
 			path = AnimatioApp;
+			sourceTree = "<group>";
+		};
+		9FB0C19BE0708360566DC4DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59DF57139A57DC2D7FA5BC26 /* Pods_AnimatioApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC9E6992C6B515984F69E694 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				16E8214FCEF94424F492786C /* Pods-AnimatioApp.debug.xcconfig */,
+				E0FF4F47230754BFD4D320A1 /* Pods-AnimatioApp.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 521042D825E6F7C30099E728 /* Build configuration list for PBXNativeTarget "AnimatioApp" */;
 			buildPhases = (
+				B1EFA8BC4821E33F376BD95D /* [CP] Check Pods Manifest.lock */,
 				521042C025E6F7C00099E728 /* Sources */,
 				521042C125E6F7C00099E728 /* Frameworks */,
 				521042C225E6F7C00099E728 /* Resources */,
+				49ECA157B59FA553E4F4E48C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,13 +161,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		49ECA157B59FA553E4F4E48C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnimatioApp/Pods-AnimatioApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnimatioApp/Pods-AnimatioApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AnimatioApp/Pods-AnimatioApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1EFA8BC4821E33F376BD95D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AnimatioApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		521042C025E6F7C00099E728 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				521042CC25E6F7C00099E728 /* ViewController.swift in Sources */,
+				521042CC25E6F7C00099E728 /* AnimationViewController.swift in Sources */,
 				521042C825E6F7C00099E728 /* AppDelegate.swift in Sources */,
+				52157EA625E80BE50009B847 /* AnimationInfo.swift in Sources */,
 				521042CA25E6F7C00099E728 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +355,7 @@
 		};
 		521042D925E6F7C30099E728 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16E8214FCEF94424F492786C /* Pods-AnimatioApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +374,7 @@
 		};
 		521042DA25E6F7C30099E728 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0FF4F47230754BFD4D320A1 /* Pods-AnimatioApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
