@@ -13,7 +13,7 @@
 		521042CF25E6F7C00099E728 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 521042CD25E6F7C00099E728 /* Main.storyboard */; };
 		521042D125E6F7C30099E728 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 521042D025E6F7C30099E728 /* Assets.xcassets */; };
 		521042D425E6F7C30099E728 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 521042D225E6F7C30099E728 /* LaunchScreen.storyboard */; };
-		52157EA625E80BE50009B847 /* AnimationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52157EA525E80BE50009B847 /* AnimationInfo.swift */; };
+		529CA09825E847E900461941 /* AnimationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529CA09725E847E900461941 /* AnimationInfo.swift */; };
 		B7066B1B21A095FCD93402AC /* Pods_AnimatioApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59DF57139A57DC2D7FA5BC26 /* Pods_AnimatioApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,7 +27,7 @@
 		521042D025E6F7C30099E728 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		521042D325E6F7C30099E728 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		521042D525E6F7C30099E728 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		52157EA525E80BE50009B847 /* AnimationInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AnimationInfo.swift; path = "/Users/test/Documents/SwiftBook/Мои ДЗ/AnimatioApp/AnimatioApp/AnimationInfo.swift"; sourceTree = "<absolute>"; };
+		529CA09725E847E900461941 /* AnimationInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationInfo.swift; sourceTree = "<group>"; };
 		59DF57139A57DC2D7FA5BC26 /* Pods_AnimatioApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimatioApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0FF4F47230754BFD4D320A1 /* Pods-AnimatioApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimatioApp.release.xcconfig"; path = "Target Support Files/Pods-AnimatioApp/Pods-AnimatioApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,9 +68,9 @@
 				521042C725E6F7C00099E728 /* AppDelegate.swift */,
 				521042C925E6F7C00099E728 /* SceneDelegate.swift */,
 				521042CB25E6F7C00099E728 /* AnimationViewController.swift */,
-				52157EA525E80BE50009B847 /* AnimationInfo.swift */,
 				521042CD25E6F7C00099E728 /* Main.storyboard */,
 				521042D025E6F7C30099E728 /* Assets.xcassets */,
+				529CA09725E847E900461941 /* AnimationInfo.swift */,
 				521042D225E6F7C30099E728 /* LaunchScreen.storyboard */,
 				521042D525E6F7C30099E728 /* Info.plist */,
 			);
@@ -210,7 +210,7 @@
 			files = (
 				521042CC25E6F7C00099E728 /* AnimationViewController.swift in Sources */,
 				521042C825E6F7C00099E728 /* AppDelegate.swift in Sources */,
-				52157EA625E80BE50009B847 /* AnimationInfo.swift in Sources */,
+				529CA09825E847E900461941 /* AnimationInfo.swift in Sources */,
 				521042CA25E6F7C00099E728 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

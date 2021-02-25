@@ -2,9 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/test/Documents/SwiftBook/&#x41c;&#x43e;&#x438; &#x414;&#x417;/AnimatioApp/AnimatioApp/AnimationInfo.swift">
-   </FileRef>
-   <FileRef
       location = "group:AnimatioApp.xcodeproj">
    </FileRef>
    <FileRef
